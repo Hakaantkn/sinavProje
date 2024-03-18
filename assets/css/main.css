@@ -4,6 +4,8 @@
 }
 .body{
     max-width: 568px;
+    font-family: Fraunces 9pt;
+
 }
 
 .header{
@@ -11,7 +13,6 @@
     justify-content: space-between;
     margin-top: 32px;
     margin-left: 24px;
-
 }
 .container{
     margin-left: 24px;
@@ -23,17 +24,18 @@
 #p1{
     font-size: 40px;
     color: white;
-    line-height: 1;
+    line-height: 40px;
+
 }
 .p2{
     color: gray;
-    line-height: 0.4;
+    line-height: 0.3;
 
 }
 .inside{
     position: absolute;
     top: 190px;
-    left: 48px;
+    left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,9 +49,11 @@
     height: 56px;
     border-radius: 8px;
     border: none;
+    top: 240px;
     position: absolute;
-    top: 435px;
-    left: 79px;
+    /* top: 435px;
+    left: 79px;  */
+    cursor: pointer;
 }
 .boxlar{
     width: 375px;
@@ -93,4 +97,44 @@
 .textDiv p{
     color: gray;
     line-height: 1.4;
+}
+.threeBox{
+    position: relative;
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    top: 64px;
+}
+.threeBoxes{
+    width: 279px;
+    height: 382px;
+    background-color: #0E8784;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+.boxesInside{
+    width: 255px;
+    height: 131px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+}
+.threeBoxes img{
+    padding: 30px;
+}
+.threeBoxes h3{
+    font-size: 24px;
+    color: white;
+}
+.threeBoxes p{
+    color: #FEFCF7;
 }
