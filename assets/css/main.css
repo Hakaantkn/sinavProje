@@ -60,7 +60,9 @@
     margin-left: 87px;
     gap: 30px;
 }
-
+.box img{
+    border-radius: 15px;
+}
 .chooseDiv{
     position: relative;
     margin-top: 242px;
