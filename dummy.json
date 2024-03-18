@@ -1,0 +1,22 @@
+[
+    {
+        "image": "https://picsum.photos/id/237/200/300",
+        "title": "Jack Daniels",
+        "aciklama": "Light and flavorful blend with "
+    },
+    {
+        "image": "https://picsum.photos/id/237/200/300",
+        "title": "Chivas Regal",
+        "aciklama": "Brazilian dark roast with rich "
+    },
+    {
+        "image": "https://picsum.photos/id/237/200/300",
+        "title": "Red Label",
+        "aciklama": "Mild and smooth blend featuring "
+    },
+    {
+        "image": "https://picsum.photos/id/237/200/300",
+        "title": "Scoth",
+        "aciklama": "Ethiopian hand-harvested blend "
+    }
+]
